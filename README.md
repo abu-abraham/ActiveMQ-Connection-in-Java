@@ -1,7 +1,5 @@
 # ActiveMQ-Connection-using-JAVA
 
-My usual coding mainly involves searching in StackOverflow for quick solutions and easy understanding of things and then, building my solutions based on that or in some cases copying the same. When I started with this project on connecting KEPServer to Java and then to ActiveMQ (After making the necessary modifications), like all the other times, I searched online and I found very limited resources explaining each step I wanted. 
-
 In this repository, there are all the required files which we need to receive data from KEPServer or any other OPC-UA protocol and then publish it to ActiveMQ using MQTT and JMS protocols. 
 
 Subscription from OPC-UA can be implemented mostly by using the same examples provided in the [eclipse-milo project](https://github.com/eclipse/milo). Following it, we can quickly recive the subscribed values in the subscription-callback function. Now, to connect to ActiveMQ I referred to [eclipse-paho](https://www.eclipse.org/paho/). 
