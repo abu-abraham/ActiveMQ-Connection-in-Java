@@ -101,7 +101,7 @@
 <dependency>
     <groupId>org.apache.httpcomponents</groupId>
     <artifactId>httpclient</artifactId>
-    <version>4.0-beta1</version>
+    <version>4.3.6</version>
 </dependency>
 <!-- https://mvnrepository.com/artifact/javax.security.auth.message/javax.security.auth.message-api -->
 <dependency>
